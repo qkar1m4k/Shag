@@ -1,0 +1,112 @@
+.mani {
+    background-image: url(background.jpg);
+}
+
+main {
+    padding: 50px;
+}
+
+.post { 
+background-color:ghostwhite;
+padding: 20px;
+border-radius: 20px;
+margin-bottom: 20px;
+display: flex;
+opacity: 0.8;
+}
+
+#menu {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    z-index: 10;
+    }
+    
+    #menu ul {
+        position: relative;
+        display: block;
+        margin: 0;
+        padding: 0;
+        width: 44%;
+        height: auto;
+        list-style: none;
+        border: 1px solid ghostwhite;
+        border-radius: 20px;
+    }
+
+    #menu > ul::after {
+        display: block;
+        width: 100%;
+        height: auto;
+        clear: both;
+        content: " ";
+    }
+    
+    #menu ul li {
+        position: relative;
+        display: block;
+        float: left;
+        width: auto;
+        height: auto;
+    }
+
+    #menu ul li a {
+        display: block;
+        padding: 9px 25px 0px 25px;
+        font-size: 14px;
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: uppercase;
+        height: 36px;
+        box-sizing: border-box;
+        color: ghostwhite;
+    }
+    
+#menu ul li ul {
+    position: absolute;
+    top: 36px;
+    left: 0px;
+    display: none;
+    width: 150px;
+    background-image: url(background.jpeg);
+}
+
+#menu ul li:hover ul {
+    display: block;
+   }
+   
+   
+   #menu ul li ul li {
+       float: none;
+       width: 100px;
+   }
+   
+#menu ul li ul li a {
+    display: block;
+    text-transform: none;
+    height: auto;
+    padding: 7px 25px;
+    width: 150px;
+    box-sizing: border-box;
+    border-top: 1px solid ghostwhite;
+    color: ghostwhite;
+}
+
+.post {
+    font-family: "Comic Sans MS";
+}
+#menu {
+    font-family: "Comic Sans MS";
+}
+h1 {
+    color: lightskyblue;
+}
+
+.txt {
+    max-width: 900px
+}
+
+.coloor {
+    color: steelblue;
+}
